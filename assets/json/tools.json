@@ -1,0 +1,82 @@
+[
+    {
+        "productId": 1,
+        "productImage": "assets/products/tools/1.png",
+        "productTitle": "Hand Trowel Tool",
+        "price": "149",
+        "oldPrice": "249",
+        "offer": "40% off"
+    },
+    {
+        "productId": 2,
+        "productImage": "assets/products/tools/2.png",
+        "productTitle": "Pruning Shears",
+        "price": "349",
+        "oldPrice": "499",
+        "offer": "30% off"
+    },
+    {
+        "productId": 3,
+        "productImage": "assets/products/tools/3.png",
+        "productTitle": "Garden Hoe",
+        "price": "499",
+        "oldPrice": "699",
+        "offer": "29% off"
+    },
+    {
+        "productId": 4,
+        "productImage": "assets/products/tools/4.png",
+        "productTitle": "Weeding Fork",
+        "price": "249",
+        "oldPrice": "399",
+        "offer": "38% off"
+    },
+    {
+        "productId": 5,
+        "productImage": "assets/products/tools/5.png",
+        "productTitle": "Garden Rake",
+        "price": "799",
+        "oldPrice": "999",
+        "offer": "20% off"
+    },
+    {
+        "productId": 6,
+        "productImage": "assets/products/tools/6.png",
+        "productTitle": "Watering Can (5L)",
+        "price": "299",
+        "oldPrice": "449",
+        "offer": "33% off"
+    },
+    {
+        "productId": 7,
+        "productImage": "assets/products/tools/7.png",
+        "productTitle": "Garden Spade",
+        "price": "649",
+        "oldPrice": "899",
+        "offer": "28% off"
+    },
+    {
+        "productId": 8,
+        "productImage": "assets/products/tools/8.png",
+        "productTitle": "Plant Spray Bottle",
+        "price": "149",
+        "oldPrice": "249",
+        "offer": "40% off"
+    },
+    {
+        "productId": 9,
+        "productImage": "assets/products/tools/9.png",
+        "productTitle": "Kneeling Pad for Gardening",
+        "price": "349",
+        "oldPrice": "499",
+        "offer": "30% off"
+    },
+    {
+        "productId": 10,
+        "productImage": "assets/products/tools/10.png",
+        "productTitle": "Set of Gardening Gloves",
+        "price": "199",
+        "oldPrice": "299",
+        "offer": "33% off"
+    }
+]

@@ -1,0 +1,58 @@
+[
+    {
+        "offerid": 1,
+        "image": "assets/products/top_offers/1.png",
+        "title": "High-Quality Seeds",
+        "offer": "From Rs 1000",
+        "subtitle": "Vegetables, Fruits & Grains"
+    },
+    {
+        "offerid": 2,
+        "image": "assets/products/top_offers/2.png",
+        "title": "Organic Fertilizers",
+        "offer": "Up to 30% Off",
+        "subtitle": "Boost Your Harvest Naturally"
+    },
+    {
+        "offerid": 3,
+        "image": "assets/products/top_offers/3.png",
+        "title": "Gardening Tools",
+        "offer": "Starting Rs 1000",
+        "subtitle": "Premium Tools for Your Farm"
+    },
+    {
+        "offerid": 4,
+        "image": "assets/products/top_offers/4.png",
+        "title": "Tractors & Accessories Bookings",
+        "offer": "Flat 10% Off",
+        "subtitle": "Powerful Machines for Farming"
+    },
+    {
+        "offerid": 5,
+        "image": "assets/products/top_offers/5.png",
+        "title": "Pesticides & Insecticides",
+        "offer": "Min 20% Off",
+        "subtitle": "Protect Your Crops Effectively"
+    },
+    {
+        "offerid": 6,
+        "image": "assets/products/top_offers/6.png",
+        "title": "Drip Irrigation Systems",
+        "offer": "Save Rs 300 Today",
+        "subtitle": "Efficient Water Management"
+    },
+    {
+        "offerid": 7,
+        "image": "assets/products/top_offers/7.png",
+        "title": "Flowers",
+        "offer": "Up to 40% Off",
+        "subtitle": "Flower Plants for Beautiful Gardens"
+    },
+    {
+        "offerid": 8,
+        "image": "assets/products/top_offers/8.png",
+        "title": "Plant Protection Nets",
+        "offer": "Just Rs 500",
+        "subtitle": "High-Durability Crop Covers"
+    }
+]
