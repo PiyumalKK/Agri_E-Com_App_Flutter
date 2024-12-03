@@ -113,30 +113,6 @@ class _PaymentPageState extends State<PaymentPage> {
                 const Divider(
                   height: 1.0,
                 ),
-                Container(
-                  width: width - 40.0,
-                  margin: const EdgeInsets.only(top: 10.0, bottom: 10.0),
-                  child: RadioListTile(
-                    value: 3,
-                    groupValue: selectedRadioPayment,
-                    title: const Text(
-                      "PayPal",
-                      style: TextStyle(
-                          fontSize: 18.0, fontWeight: FontWeight.bold),
-                    ),
-                    onChanged: (val) {
-                      setSelectedRadioPayment(val!);
-                    },
-                    activeColor: Colors.blue,
-                    secondary: const Image(
-                      image: AssetImage(
-                        'assets/payment_icon/paypal.png',
-                      ),
-                      height: 40.0,
-                      width: 40.0,
-                    ),
-                  ),
-                ),
                 const Divider(
                   height: 1.0,
                 ),

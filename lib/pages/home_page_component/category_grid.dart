@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:go_kart/pages/category/Fruits_Vegetables/products_fv.dart';
+import 'package:go_kart/pages/category/Seeds%20&%20Plants/products_seeds.dart';
 
 // My Own Imports
 import 'package:go_kart/pages/category/top_offers.dart';
@@ -34,6 +35,7 @@ class CategoryGrid extends StatelessWidget {
             data: PassData(
                 '${item['title']}')), // Corrected to pass data to Tools widget
         'Fruits & Vegetables': F_Vege(data: PassData('${item['title']}')),
+        'Seeds & Plants': Seeds(data: PassData('${item['title']}')),
         'Soil & Fertilizers':
             TopOffers(title: '${item['title']}'), // Example placeholder
         'Flowers': TopOffers(title: '${item['title']}'), // Example placeholder

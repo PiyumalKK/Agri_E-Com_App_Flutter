@@ -61,7 +61,7 @@ class _MyHomePageState extends State<MyHomePage> {
   @override
   void initState() {
     super.initState();
-    //testFirebaseConnection(); // Test Firebase connection on app start
+    //testFirebaseConnection();t
   }
 
   @override
