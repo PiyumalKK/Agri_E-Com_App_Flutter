@@ -149,7 +149,7 @@ class _PaymentPageState extends State<PaymentPage> {
                   textAlign: TextAlign.center,
                 ),
                 const SizedBox(height: 20.0),
-                Container(
+                SizedBox(
                   width: width - 40.0,
                   child: RadioListTile(
                     value: 1,
@@ -166,7 +166,7 @@ class _PaymentPageState extends State<PaymentPage> {
                   ),
                 ),
                 const Divider(height: 1.0),
-                Container(
+                SizedBox(
                   width: width - 40.0,
                   child: RadioListTile(
                     value: 2,

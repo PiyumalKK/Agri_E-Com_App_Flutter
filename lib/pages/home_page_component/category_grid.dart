@@ -5,7 +5,7 @@ import 'package:go_kart/pages/category/Seeds%20&%20Plants/products_seeds.dart';
 // My Own Imports
 import 'package:go_kart/pages/category/top_offers.dart';
 import 'package:go_kart/pages/category/top_offers_pages/tools.dart'; // Import the Tools widget
-import 'package:go_kart/pages/category/top_offers.dart'; // Import the correct PassData class
+// Import the correct PassData class
 
 class CategoryGrid extends StatelessWidget {
   final categoryList = [

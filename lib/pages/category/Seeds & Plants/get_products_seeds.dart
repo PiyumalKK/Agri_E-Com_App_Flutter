@@ -88,7 +88,7 @@ class _ProductsGridViewState extends State<ProductsGridView> {
                       products.productImage,
                       fit: BoxFit.fitHeight,
                       errorBuilder: (context, error, stackTrace) {
-                        return Icon(
+                        return const Icon(
                           Icons.broken_image,
                           size: 50.0,
                           color: Colors.grey,
@@ -116,7 +116,7 @@ class _ProductsGridViewState extends State<ProductsGridView> {
                     mainAxisAlignment: MainAxisAlignment.center,
                     children: <Widget>[
                       Text(
-                        "\RS ${products.productPrice}",
+                        "RS ${products.productPrice}",
                         style: const TextStyle(fontSize: 16.0),
                         overflow: TextOverflow.ellipsis,
                         maxLines: 2,

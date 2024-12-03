@@ -178,7 +178,7 @@ class _WishlistPageState extends State<WishlistPage> {
                                       fit: BoxFit.fitHeight,
                                       errorBuilder:
                                           (context, error, stackTrace) {
-                                        return Icon(
+                                        return const Icon(
                                           Icons.broken_image,
                                           size: 50.0,
                                           color: Colors.grey,

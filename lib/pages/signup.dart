@@ -131,19 +131,19 @@ class _SignupState extends State<Signup> {
                   children: <Widget>[
                     TextField(
                       controller: _emailController,
-                      decoration: InputDecoration(
+                      decoration: const InputDecoration(
                         hintText: 'Email Address',
                         contentPadding:
-                            const EdgeInsets.only(top: 12.0, bottom: 12.0),
+                            EdgeInsets.only(top: 12.0, bottom: 12.0),
                       ),
                     ),
                     const SizedBox(height: 10.0),
                     TextField(
                       controller: _usernameController,
-                      decoration: InputDecoration(
+                      decoration: const InputDecoration(
                         hintText: 'Username',
                         contentPadding:
-                            const EdgeInsets.only(top: 12.0, bottom: 12.0),
+                            EdgeInsets.only(top: 12.0, bottom: 12.0),
                       ),
                     ),
                     const SizedBox(height: 10.0),
@@ -178,6 +178,7 @@ class _SignupState extends State<Signup> {
                 ),
                 const SizedBox(height: 50.0),
                 InkWell(
+                  onTap: _signUp,
                   child: SizedBox(
                     height: 45.0,
                     child: Material(
@@ -210,14 +211,13 @@ class _SignupState extends State<Signup> {
                       ),
                     ),
                   ),
-                  onTap: _signUp,
                 ),
                 if (_errorMessage != null)
                   Padding(
                     padding: const EdgeInsets.only(top: 10),
                     child: Text(
                       _errorMessage!,
-                      style: TextStyle(
+                      style: const TextStyle(
                         color: Colors.red,
                         fontSize: 16.0,
                         fontWeight: FontWeight.bold,
@@ -228,7 +228,7 @@ class _SignupState extends State<Signup> {
                 Row(
                   mainAxisAlignment: MainAxisAlignment.center,
                   children: <Widget>[
-                    Text(
+                    const Text(
                       'Already have an account?',
                       style: TextStyle(
                         fontFamily: 'Alatsi',

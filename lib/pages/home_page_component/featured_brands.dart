@@ -36,13 +36,13 @@ class _FeaturedBrandSliderState extends State<FeaturedBrandSlider> {
 
   // Function to start the auto-slide timer
   void _startAutoSlide() {
-    Timer.periodic(Duration(seconds: 3), (timer) {
+    Timer.periodic(const Duration(seconds: 3), (timer) {
       if (_pageController.hasClients) {
         // Increment the page index and loop back to the first page when reaching the end
         _currentPage = (_currentPage + 1) % featuredBrandList.length;
         _pageController.animateToPage(
           _currentPage,
-          duration: Duration(milliseconds: 300),
+          duration: const Duration(milliseconds: 300),
           curve: Curves.easeInOut,
         );
       }

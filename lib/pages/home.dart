@@ -161,7 +161,7 @@ class _HomeState extends State<Home> {
 
           // 🔖 Featured Agricultural Brands Section
           _buildSectionTitle('🔖 Featured Agricultural Ads'),
-          FeaturedBrandSlider(),
+          const FeaturedBrandSlider(),
 
           const SizedBox(height: 6.0),
           const Divider(height: 1.0),

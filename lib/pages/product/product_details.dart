@@ -90,7 +90,7 @@ class _ProductDetailsState extends State<ProductDetails> {
                     widget.data.imagePath,
                     fit: BoxFit.fitHeight,
                     errorBuilder: (context, error, stackTrace) {
-                      return Icon(
+                      return const Icon(
                         Icons.broken_image,
                         size: 50.0,
                         color: Colors.grey,

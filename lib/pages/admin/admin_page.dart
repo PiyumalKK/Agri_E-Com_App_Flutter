@@ -1,6 +1,5 @@
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/material.dart';
-import 'package:go_kart/pages/home_page_component/drawer.dart';
 import 'package:go_kart/pages/home_page_component/drawer_admin.dart';
 
 class AdminPage extends StatefulWidget {

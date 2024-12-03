@@ -42,7 +42,7 @@ class _ToolsState extends State<F_Vege> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).primaryColor,
-        title: Text(widget.data!.title),
+        title: Text(widget.data.title),
         titleSpacing: 0.0,
         actions: <Widget>[
           IconButton(

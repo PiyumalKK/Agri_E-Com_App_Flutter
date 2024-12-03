@@ -1,7 +1,5 @@
 import 'package:flutter/material.dart';
 
-import 'package:go_kart/pages/cart.dart';
-import 'package:go_kart/pages/category/top_offers.dart';
 import 'package:go_kart/pages/faq_and_about_app/about_app.dart';
 import 'package:go_kart/pages/faq_and_about_app/faq.dart';
 import 'package:go_kart/pages/login.dart';
